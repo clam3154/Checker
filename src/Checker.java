@@ -1,7 +1,4 @@
-public class Checker
+public interface Checker
 {
-    public static void main(String[] args)
-    {
-        
-    }
+    boolean accept(String text);
 }
